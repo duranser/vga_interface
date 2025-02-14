@@ -71,28 +71,28 @@ module vertical_test(
 		begin
 			if(frame_cnt < 60)
 			begin
-				red   <= 4'b1111;
-				green <= 4'b0000;
-				blue  <= 4'b0000;
+				red   = 4'b1111;
+				green = 4'b0000;
+				blue  = 4'b0000;
 			end
 			else if( frame_cnt < 120 )
 			begin
-				red   <= 4'b0000;
-				green <= 4'b1111;
-				blue  <= 4'b0000;			
+				red   = 4'b0000;
+				green = 4'b1111;
+				blue  = 4'b0000;			
 			end
 			else
 			begin
-				red   <= 4'b0000;
-				green <= 4'b0000;
-				blue  <= 4'b1111;				
+				red   = 4'b0000;
+				green = 4'b0000;
+				blue  = 4'b1111;				
 			end
 		end
 		else
 		begin
-			red   <= 4'b0000;
-			green <= 4'b0000;
-			blue  <= 4'b0000;			
+			red   = 4'b0000;
+			green = 4'b0000;
+			blue  = 4'b0000;			
 		end
 	end
 endmodule

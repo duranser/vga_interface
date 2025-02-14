@@ -74,28 +74,28 @@ module horizontal_test(
 		begin
 			if( line_cnt < 160 )
 			begin
-				red   <= 4'b1111;
-				green <= 4'b0000;
-				blue  <= 4'b0000;
+				red   = 4'b1111;
+				green = 4'b0000;
+				blue  = 4'b0000;
 			end
 			else if( line_cnt < 320 )
 			begin
-				red   <= 4'b0000;
-				green <= 4'b1111;
-				blue  <= 4'b0000;			
+				red   = 4'b0000;
+				green = 4'b1111;
+				blue  = 4'b0000;			
 			end
 			else
 			begin
-				red   <= 4'b0000;
-				green <= 4'b0000;
-				blue  <= 4'b1111;				
+				red   = 4'b0000;
+				green = 4'b0000;
+				blue  = 4'b1111;				
 			end
 		end
 		else
 		begin
-			red   <= 4'b0000;
-			green <= 4'b0000;
-			blue  <= 4'b0000;			
+			red   = 4'b0000;
+			green = 4'b0000;
+			blue  = 4'b0000;			
 		end
 	end
 endmodule
