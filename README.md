@@ -29,5 +29,5 @@
 
 ## References
 1. Nexys A7 Reference Manual, https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual.
-2. V. A. Pedroni, Circuit Design with VHDL. TheMit Press, 2019.
+2. V. A. Pedroni, Circuit Design with VHDL. TheMit Press, 2010.
 
